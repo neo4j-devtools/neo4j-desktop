@@ -11,7 +11,7 @@ Neo4j Desktop is a client application for working with Neo4j. It downloads every
 - Neo4j Enterprise Edition for Developers
 - Graph Apps built on Neo4j
   - Neo4j Browser for working with the Cypher graph query language
-  - Neo4j Bloom 
+  - Neo4j Bloom for visual graph exploration
   - check out more at [Graph Apps Gallery](https://install.graphapp.io)
 
 ## What are the limitations of the included Neo4j Enterprise Edition for Developers
