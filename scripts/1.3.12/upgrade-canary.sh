@@ -16,7 +16,7 @@ tmp_file=$(mktemp)
 env_name="Neo4j_Desktop_Canary"
 env_config_path="$relate_config_path/environments/$env_name.json"
 
-sed -i 's/"configPath":\s*"[^"]*",//' "$env_config_path"
-sed -i 's/"relateDataPath":\s*"[^"]*",//' "$env_config_path"
+sed -i.bak 's/"configPath":\s*"[^"]*",//' "$env_config_path"
+sed -i.bak 's/"relateDataPath":\s*"[^"]*",//' "$env_config_path"
 
 echo "Environment updated"
